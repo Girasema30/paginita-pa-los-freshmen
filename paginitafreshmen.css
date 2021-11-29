@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://image.freepik.com/vector-gratis/paisaje-juego-plantas-tropicales_105738-749.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.header-tittle {
+    background-color: #58a50b;
+    padding: 1em;
+    margin: 0 auto;
+    margin-top: 2.5em;
+    height: 0 auto;
+    width: 600px;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+
+.header-tittle:hover{
+    transform: scale(1.1);
+    box-shadow: #2d5704d7 2px 4px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* Aquí inicia el código del div informativo */
+
+.definition {
+    background-color: #a4ee5b;
+    color: #ffffff;
+    border-radius: 25px;
+    border: #1d3604 solid 2px;
+    width: 500px;
+    height: 300px;
+    top: 100px;
+    left: 200px;
+    position: relative;
+    transition: 0.5s all;
+}
+
+.definition:hover {
+    transform: scale(1.1);
+    box-shadow: #1d3604 2.5px 5px;
+}
+
+.definition h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 25px;
+}
+
+.definition p {
+    text-align: justify;
+    padding: 1em;
+    font-size: 20px;
+}
+
+.definition span a {
+    text-decoration: none;
+}
+
+/* Aquí inicia el código del gif */
+
+.monitogif {
+    position: relative;
+    left: 900px;
+    bottom: 15px;
+    width: 200px;
+}
+
+.monitogif img {
+    width: 290px;
+    height: 200px;
+    border-radius: 110px;
+    border: #000000 solid 2px;
+    transition: 0.5s all;
+}
+
+.monitogif img:hover{
+    transform: scale(1.1);
+}
